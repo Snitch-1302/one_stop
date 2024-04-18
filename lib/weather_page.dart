@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:permission_handler/permission_handler.dart'; 
 
-const String OPENWEATHERMAP_API_KEY = 'cdd4e27345efccdd3e38500299e2b009'; 
+const String OPENWEATHERMAP_API_KEY = ''; //Replace with OpenWeather API key 
 
 class WeatherPage extends StatelessWidget {
   const WeatherPage({Key? key});
