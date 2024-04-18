@@ -31,7 +31,7 @@ class _TrafficPageState extends State<TrafficPage> {
   Future<void> _getRouteInstructions() async {
     String source = _sourceController.text;
     String destination = _destinationController.text;
-    String apiKey = "AIzaSyDq1PFQxdR94vjLqRM1QjIyM7o5MxXA9tg"; // Replace with your Google Maps API key
+    String apiKey = ""; // Replace with your Google Maps API key
     String url =
         "https://maps.googleapis.com/maps/api/directions/json?origin=$source&destination=$destination&key=$apiKey";
 
